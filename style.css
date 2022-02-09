@@ -1,0 +1,53 @@
+body {
+    background: #111;
+    color: #ffffff;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#game {
+    margin: 0 auto;
+    width:  500px;
+}
+
+h1 {
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 40px ;
+    color: rgb(221, 221, 221);
+    letter-spacing: 3px;
+    padding: 0px;
+    margin: 0px auto;
+    height: 40px;
+}
+
+.row {
+    display:flex;
+    justify-content: center;
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgb(63, 63, 63);
+    margin: 3px;
+}
+
+.letter-guess {
+    outline: none;
+    border: none;
+    font-family: 'Yantramanav', sans-serif;
+    color: rgb(221, 221, 221);
+    width: 50px;
+    height: 50px;
+    font-size: 35px;
+    color: white;
+    background: transparent;
+    text-align: center;
+
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: rgb(63, 63, 63)
+}
